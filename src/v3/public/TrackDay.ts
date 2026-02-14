@@ -1,5 +1,5 @@
 
-interface TrackDay {
+export interface TrackDay {
 
   handle: string;
 

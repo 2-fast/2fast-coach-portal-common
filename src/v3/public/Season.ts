@@ -1,4 +1,5 @@
+import {TrackDay} from "./TrackDay";
 
-interface Season {
+export interface Season {
   days: TrackDay[];
 }

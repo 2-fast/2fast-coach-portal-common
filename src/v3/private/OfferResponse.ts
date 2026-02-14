@@ -1,4 +1,4 @@
-interface OfferResponse {
+export interface OfferResponse {
 
   coach: string;
 

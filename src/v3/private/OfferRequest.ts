@@ -1,4 +1,4 @@
-interface OfferRequest {
+export interface OfferRequest {
 
   coach: string;
 
