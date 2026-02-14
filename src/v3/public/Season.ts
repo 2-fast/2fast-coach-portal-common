@@ -1,0 +1,4 @@
+
+interface Season {
+  days: TrackDay[];
+}
