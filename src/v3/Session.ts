@@ -1,8 +1,8 @@
-import {SparseSession} from "./SparseSession";
-import {Coach} from "./Coach";
-import {SparseTrackDay} from "./SparseTrackDay";
-import {Track} from "./Track";
-import {Customer} from "./Customer";
+import {SparseSession} from "./SparseSession.js";
+import {Coach} from "./Coach.js";
+import {SparseTrackDay} from "./SparseTrackDay.js";
+import {Track} from "./Track.js";
+import {Customer} from "./Customer.js";
 
 export interface Session extends SparseSession {
 

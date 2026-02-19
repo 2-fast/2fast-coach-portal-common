@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c36c5cf4-35f8-435a-9e96-da67b25ca6c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CoachSessions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SparseSession.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RealtimeAuthDataTypes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RealtimeData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/RealtimeData.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Session.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Session.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sessions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sessions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v3/RealtimeSessionsAuthTrackDay.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/v3/RealtimeSessionsAuthTrackDay.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v3/RealtimeTrackDay.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/v3/RealtimeTrackDay.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v3/SeasonInfo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/v3/SeasonInfo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v3/Session.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/v3/Session.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v3/Sessions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/v3/Sessions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v3/TrackDay.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/v3/TrackDay.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/v4/public/Season.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/v4/public/Season.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +23,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="package.json" />
+        <option value="CSS File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -53,8 +54,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "37e87a51",
-    "last_opened_file_path": "/Users/vaage/Documents/2fast-coach-portal-common",
+    "git-widget-placeholder": "data-types-2",
+    "last_opened_file_path": "/Users/vaage/Documents/2fast-coach-portal-common/src/v3",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -71,25 +72,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/v3" />
+      <recent name="$PROJECT_DIR$/src/v4/public" />
       <recent name="$PROJECT_DIR$/client-lit/src/pages/dashboards/admin" />
       <recent name="$PROJECT_DIR$/client-lit/src/util" />
       <recent name="$PROJECT_DIR$/client-lit/src/pages/dashboards/components" />
-      <recent name="$PROJECT_DIR$/api/src/external" />
-      <recent name="$PROJECT_DIR$/client-lit/src/external" />
     </key>
     <key name="es6.move.members.recent.items">
-      <recent name="$PROJECT_DIR$/src/Session2.ts" />
-      <recent name="$PROJECT_DIR$/src/SparseTrackDay.ts" />
-      <recent name="$PROJECT_DIR$/src/Customer.ts" />
-      <recent name="$PROJECT_DIR$/src/Session.ts" />
-      <recent name="$PROJECT_DIR$/src/BookingRequest.ts" />
+      <recent name="$PROJECT_DIR$/src/v3/private/offerResponse.ts" />
+      <recent name="$PROJECT_DIR$/src/v3/private/offerRequest.ts" />
+      <recent name="$PROJECT_DIR$/src/v3/public/Season.ts" />
+      <recent name="$PROJECT_DIR$/src/Track.ts" />
+      <recent name="$PROJECT_DIR$/src/SeasonInfoTrackDay.ts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/v3" />
+      <recent name="$PROJECT_DIR$/src/v3/private" />
+      <recent name="$PROJECT_DIR$/src/v3/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/client-lit/src" />
-      <recent name="$PROJECT_DIR$/client-lit/src/external" />
-      <recent name="$PROJECT_DIR$/client-lit/src/pages/dashboards" />
-      <recent name="$PROJECT_DIR$/client-lit/src/component/dashboard" />
     </key>
   </component>
   <component name="RunManager" selected="npm.functions - deploy">
@@ -190,6 +191,13 @@
       <workItem from="1739937805544" duration="4601000" />
       <workItem from="1743382778674" duration="868000" />
       <workItem from="1743383659897" duration="4440000" />
+      <workItem from="1747190749392" duration="527000" />
+      <workItem from="1747963367977" duration="4374000" />
+      <workItem from="1748205945810" duration="596000" />
+      <workItem from="1748231119144" duration="363000" />
+      <workItem from="1748919500410" duration="6000" />
+      <workItem from="1770950477130" duration="682000" />
+      <workItem from="1771101267888" duration="11402000" />
     </task>
     <servers />
   </component>

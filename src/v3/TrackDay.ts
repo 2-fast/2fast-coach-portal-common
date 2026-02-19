@@ -1,4 +1,4 @@
-import {SparseTrackDay} from "./SparseTrackDay";
+import {SparseTrackDay} from "./SparseTrackDay.js";
 
 /**
  * Augments the track day with a self-referencing guid.

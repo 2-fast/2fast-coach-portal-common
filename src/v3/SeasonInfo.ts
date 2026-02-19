@@ -1,6 +1,6 @@
-import {Coach} from "./Coach";
-import {Track} from "./Track";
-import {SparseTrackDay} from "./SparseTrackDay";
+import {Coach} from "./Coach.js";
+import {Track} from "./Track.js";
+import {SparseTrackDay} from "./SparseTrackDay.js";
 
 export interface SeasonInfo {
   coaches: { [key: string]: Coach };

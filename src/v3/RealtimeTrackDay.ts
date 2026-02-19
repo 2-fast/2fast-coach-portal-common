@@ -1,5 +1,5 @@
-import {Track} from "./Track";
-import {Coach} from "./Coach";
+import {Track} from "./Track.js";
+import {Coach} from "./Coach.js";
 
 export interface RealtimeTrackDay {
   date: string;

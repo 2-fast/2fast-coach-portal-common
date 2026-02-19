@@ -1,4 +1,4 @@
-import {SparseSession} from "./SparseSession";
+import {SparseSession} from "./SparseSession.js";
 
 // Some group of sessions. This can be used to return available sessions to the
 // main website view, or used to return a coach's active sessions (coach's
