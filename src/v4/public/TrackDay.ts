@@ -15,7 +15,7 @@ export interface TrackDay {
    *
    * Undefined when used offline.
    */
-  offering: String[] | undefined;
+  offering: string[] | undefined;
 
   /**
    * A list of coaches (handle); the coaches are already booked. Customers cannot request them and these coaches cannot
@@ -23,5 +23,5 @@ export interface TrackDay {
    *
    * Undefined when used offline.
    */
-  booked: String[] | undefined;
+  booked: string[] | undefined;
 }
