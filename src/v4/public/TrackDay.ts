@@ -1,3 +1,5 @@
+import {CoachStatus} from "./CoachStatus";
+
 // This types will be used in the offline and online data.
 export interface TrackDay {
   /**
@@ -11,17 +13,9 @@ export interface TrackDay {
   date: string;
 
   /**
-   * A list of coaches (handles); these coaches can be booked.
+   * Every coach that is attending the track day. If a coach is not in this list, they are not attending the track day.
    *
    * Undefined when used offline.
    */
-  offering: string[] | undefined;
-
-  /**
-   * A list of coaches (handle); the coaches are already booked. Customers cannot request them and these coaches cannot
-   * remove themselves from this day.
-   *
-   * Undefined when used offline.
-   */
-  booked: string[] | undefined;
+  coaches: CoachStatus[] | undefined;
 }
