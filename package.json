@@ -1,10 +1,20 @@
 {
   "name": "2-fast-coaching-common",
-  "description": "",
-  "license": "MIT",
-  "author": "Aaron Vaage",
   "version": "0.0.0",
   "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "devDependencies": {
+    "@open-wc/eslint-config": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
     "extends": [
@@ -16,17 +26,9 @@
     ],
     "rules": {
       "no-unused-vars": "off",
-      "@typescript-eslint/no-unused-vars": [
-        "error"
-      ],
+      "@typescript-eslint/no-unused-vars": ["error"],
       "import/no-unresolved": "off",
-      "import/extensions": [
-        "warn",
-        "always",
-        {
-          "ignorePackages": true
-        }
-      ]
+      "import/extensions": ["warn", "always", { "ignorePackages": true }]
     }
   },
   "prettier": {

@@ -1,6 +1,6 @@
 import {TrackDay} from "./TrackDay.js";
-import {Coach} from "./Coach";
-import {Track} from "./Track";
+import {Coach} from "./Coach.js";
+import {Track} from "./Track.js";
 
 export interface Season {
 

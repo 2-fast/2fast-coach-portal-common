@@ -1,4 +1,4 @@
-import {SparseSession} from "./SparseSession";
+import {SparseSession} from "./SparseSession.js";
 
 export interface CoachSessions {
 

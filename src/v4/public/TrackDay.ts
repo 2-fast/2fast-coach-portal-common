@@ -1,4 +1,4 @@
-import {CoachStatus} from "./CoachStatus";
+import {CoachStatus} from "./CoachStatus.js";
 
 // This types will be used in the offline and online data.
 export interface TrackDay {
